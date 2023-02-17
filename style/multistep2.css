@@ -1,0 +1,232 @@
+body {
+  background-color: hsl(206, 54%, 92%);
+}
+.main-cnt {
+  width: 950px;
+  height: 600px;
+  margin-top: 60px;
+  margin-left: 200px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+.about-cnt {
+  display: flex;
+  flex-direction: row;
+}
+.sidebar-cnt {
+  margin-top: 17px;
+  margin-left: 15px;
+  width: 500px;
+}
+.option-cnt {
+  margin-top: 40px;
+  margin-left: -480px;
+}
+.one {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+
+  border: 1px solid white;
+}
+.two {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  background-color: hsl(206, 94%, 87%);
+  border: 1px solid white;
+}
+.three {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  border: 1px solid white;
+}
+.four {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  border: 1px solid white;
+}
+.no-cnt {
+  margin-top: 50px;
+  margin-left: -25px;
+}
+.no-1 {
+  margin-bottom: 37px;
+  color: white;
+}
+
+.no-2 {
+  margin-top: 0px;
+  margin-bottom: 38px;
+  color: white;
+}
+.no-3 {
+  margin-top: 0px;
+  margin-bottom: 38px;
+  color: white;
+}
+.no-4 {
+  color: white;
+}
+.sideinfor-cnt {
+  margin-left: 35px;
+  margin-top: 20px;
+}
+.step-no {
+  color: rgb(196, 190, 190);
+  font-size: 11px;
+  padding-top: 3px;
+}
+.step-info {
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  margin-top: -10px;
+}
+.step1-cnt {
+  margin-top: 20px;
+  margin-bottom: 18px;
+}
+.step2-cnt {
+  margin-bottom: 20px;
+}
+.step3-cnt {
+  margin-bottom: 25px;
+}
+.plan-cnt {
+  margin-left: 190px;
+  margin-top: 30px;
+}
+.infor-ttl {
+  font-size: 40px;
+  font-weight: bolder;
+  color: hsl(242, 89%, 17%);
+}
+.infor-bdy {
+  font-size: 14px;
+  color: grey;
+  margin-top: -30px;
+}
+.icon-cnt {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.arcade-cnt {
+  margin-right: 40px;
+  width: 130px;
+  height: 150px;
+  border: 2px solid rgb(182, 180, 180);
+  border-radius: 7px;
+  background-color: hsl(200, 14%, 96%);
+}
+.advnc-cnt {
+  margin-right: 40px;
+  width: 130px;
+  height: 150px;
+  border: 1px solid rgb(182, 180, 180);
+  border-radius: 7px;
+}
+.pro-cnt {
+  width: 130px;
+  height: 150px;
+  border: 1px solid rgb(182, 180, 180);
+  border-radius: 7px;
+}
+.logo {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.type {
+  margin-top: 25px;
+  margin-left: 15px;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: arial;
+  color: hsl(242, 89%, 17%);
+}
+.amnt {
+  margin-top: -15px;
+  margin-left: 15px;
+  font-size: 13px;
+  font-family: arial;
+  color: rgb(154, 147, 147);
+}
+.choose-cnt {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: 50px;
+  border-radius: 7px;
+  margin-top: 30px;
+  background-color: hsl(200, 14%, 96%);
+}
+.month-cnt {
+  margin-left: 150px;
+}
+.month {
+  font-size: 17px;
+  font-weight: bold;
+  font-family: arial;
+  color: hsl(242, 89%, 17%);
+}
+.optn-cnt {
+  width: 40px;
+  height: 20px;
+  border-radius: 15px;
+  margin-top: 17px;
+  margin-left: 9px;
+  background-color: hsl(242, 89%, 17%);
+}
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50px;
+  margin-top: 3px;
+  margin-left: 5px;
+  background-color: white;
+}
+.year-cnt {
+  margin-left: 10px;
+}
+.year {
+  font-size: 17px;
+  font-family: arial;
+  color: rgb(154, 147, 147);
+}
+.button-cnt {
+  margin-top: 90px;
+  width: auto;
+  height: 50px;
+}
+.back {
+  width: 70px;
+  height: 50px;
+  font-size: 15px;
+  font-family: arial;
+  color: rgb(154, 147, 147);
+  background-color: white;
+  border: none;
+}
+.next {
+  width: 100px;
+  height: 50px;
+  font-size: 15px;
+  font-family: arial;
+  float: right;
+  color: white;
+  font-weight: bold;
+  background-color: hsl(242, 89%, 17%);
+  border-radius: 8px;
+}
