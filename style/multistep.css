@@ -1,0 +1,151 @@
+body {
+  background-color: hsl(206, 54%, 92%);
+}
+.main-cnt {
+  width: 950px;
+  height: 600px;
+  margin-top: 60px;
+  margin-left: 200px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+.about-cnt {
+  display: flex;
+  flex-direction: row;
+}
+.sidebar-cnt {
+  margin-top: 17px;
+  margin-left: 15px;
+  width: 500px;
+}
+.option-cnt {
+  margin-top: 40px;
+  margin-left: -480px;
+}
+.one {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  background-color: hsl(206, 94%, 87%);
+  border: 1px solid white;
+}
+.two {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  border: 1px solid white;
+}
+.three {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  border: 1px solid white;
+}
+.four {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  border: 1px solid white;
+}
+.no-cnt {
+  margin-top: 50px;
+  margin-left: -25px;
+}
+.no-1 {
+  margin-bottom: 37px;
+  color: white;
+}
+
+.no-2 {
+  margin-top: 0px;
+  margin-bottom: 38px;
+  color: white;
+}
+.no-3 {
+  margin-top: 0px;
+  margin-bottom: 38px;
+  color: white;
+}
+.no-4 {
+  color: white;
+}
+.sideinfor-cnt {
+  margin-left: 35px;
+  margin-top: 20px;
+}
+.step-no {
+  color: rgb(196, 190, 190);
+  font-size: 11px;
+  padding-top: 3px;
+}
+.step-info {
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  margin-top: -10px;
+}
+.step1-cnt {
+  margin-top: 20px;
+  margin-bottom: 18px;
+}
+.step2-cnt {
+  margin-bottom: 20px;
+}
+.step3-cnt {
+  margin-bottom: 25px;
+}
+.personalinfor-cnt {
+  margin-left: 190px;
+  margin-top: 30px;
+}
+.infor-ttl {
+  font-size: 40px;
+  font-weight: bolder;
+  color: hsl(242, 89%, 17%);
+}
+.infor-bdy {
+  font-size: 14px;
+  color: grey;
+  margin-top: -30px;
+}
+.name-cnt {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.email-cnt {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.number-cnt {
+  display: flex;
+  flex-direction: column;
+}
+.box {
+  margin-top: 10px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+.button {
+  margin-left: 350px;
+  margin-top: 100px;
+  width: 100px;
+  height: 50px;
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(8, 8, 84);
+  border-radius: 8px;
+  border: 1px solid rgb(8, 8, 84);
+}

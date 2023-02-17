@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multi-step form</title>
+    <link rel="stylesheet" href="style/multistep.css" />
+  </head>
+  <body>
+    <div class="main-cnt">
+      <div class="about-cnt">
+        <div class="sidebar-cnt">
+          <img src="images/bg-sidebar-desktop.svg" />
+        </div>
+        <div class="option-cnt">
+          <div class="one"></div>
+          <div class="two"></div>
+          <div class="three"></div>
+          <div class="four"></div>
+        </div>
+        <div class="no-cnt">
+          <div class="no-1">1</div>
+          <div class="no-2">2</div>
+          <div class="no-3">3</div>
+          <div class="no-4">4</div>
+        </div>
+        <div class="sideinfor-cnt">
+          <div class="step1-cnt">
+            <p class="step-no">STEP 1</p>
+            <p class="step-info">YOUR INFOR</p>
+          </div>
+          <div class="step2-cnt">
+            <p class="step-no">STEP 2</p>
+            <p class="step-info">SELECT-PLAN</p>
+          </div>
+          <div class="step3-cnt">
+            <p class="step-no">STEP 3</p>
+            <p class="step-info">ADD-ONS</p>
+          </div>
+          <div class="step4-cnt">
+            <p class="step-no">STEP 4</p>
+            <p class="step-info">SUMMARY</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="personalinfor-cnt">
+        <div>
+          <p class="infor-ttl">Personal info</p>
+          <p class="infor-bdy">
+            Please provide your name,email address, and phone number.
+          </p>
+        </div>
+        <div class="name-cnt">
+          <label for="id">Name</label>
+          <input
+            class="box"
+            type="text"
+            placeholder=" e.g. Stephen King"
+            required
+          />
+        </div>
+        <div class="email-cnt">
+          <label for="id">Email Address</label>
+          <input
+            class="box"
+            type="text"
+            placeholder=" e.g stephenking@lorem.com"
+            required
+          />
+        </div>
+        <div class="number-cnt">
+          <label for="id">Phone number</label>
+          <input
+            class="box"
+            type="text"
+            placeholder=" e.g +1 234 567 890"
+            required
+          />
+        </div>
+        <div class="button-cnt">
+          <button class="button">Next Step</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
